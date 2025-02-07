@@ -6,8 +6,16 @@ body{
     background-color: lightskyblue;
 }
 
+@media screen and (max-width: 800px){
+    body{
+        /*anytime the page is show on a screen with a width from 800px
+        to  401px wide*/
+        background-color: lightpink;
+    }
+}
+
 @media screen and (max-width:400px){
-    /*anytime the page is shown on a screen with a width from 0px-400px wide*/
+    /*anytime the page is shown on a screen with a width from 400px-0x wide*/
     body{
         background-color: lightgoldenrodyellow;
     }
