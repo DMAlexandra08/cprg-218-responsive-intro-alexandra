@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+div#container{
+    display: grid;
+    grid-template-areas:
+    /* give these good names, not confusing ones. i.e. instead of top
+    it should say something like ___ (ask dan). in inspect and grid
+    display, show area names so you can see where everything is
+    located.*/
+    'top top'
+    'left right'
+    'bottom bottom';
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 2rem;
+}
+
+header{
+    grid-area: top;
+    background-color: lightgreen;
+}
+
+main{
+    grid-area: right;
+}
+
+nav{
+    grid-area: left;
+    background-color: #f4f4f4
+}
+
+footer{
+    grid-area: bottom;
+    background-color: lightgreen;
+}
