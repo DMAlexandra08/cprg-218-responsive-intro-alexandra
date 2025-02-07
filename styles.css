@@ -9,7 +9,9 @@ body{
 @media screen and (max-width: 800px){
     body{
         /*anytime the page is show on a screen with a width from 800px
-        to  401px wide*/
+        to  401px wide. in this media link, change anything you want to look
+        different on phone vs tablet vs laptop. ie, font size, image roation,
+        etc.*/
         background-color: lightpink;
     }
 }
@@ -21,3 +23,5 @@ body{
     }
 }
 
+/*new stylesheet called layout.css which is where more decorative
+editing is done. helps start from scratch*/
