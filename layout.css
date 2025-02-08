@@ -6,7 +6,7 @@ div#container{
     display: grid;
     grid-template-areas:
     /* give these good names, not confusing ones. i.e. instead of top
-    it should say something like ___ (ask dan). in inspect and grid
+    it should say something like header, footer, etc. (ask dan). in inspect and grid
     display, show area names so you can see where everything is
     located.*/
     'top top'
