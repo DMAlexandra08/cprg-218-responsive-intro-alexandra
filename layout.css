@@ -52,5 +52,10 @@ footer{
         /*display: block; (take up 100% width of parent)*/
         grid-template-columns: 1fr;
         gap: 0rem;
+
+    }
+
+    #desktop{
+        display:none;
     }
 }
