@@ -35,3 +35,15 @@ footer{
     grid-area: bottom;
     background-color: lightgreen;
 }
+
+@media screen and (max-width:530px){
+    div#container{
+        grid-template-areas:
+        "top"
+        "right"
+        "left"
+        "bottom";
+        /*display: block; (take up 100% width of parent)*/
+        grid-template-columns: 1fr;
+    }
+}
