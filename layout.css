@@ -26,6 +26,12 @@ main{
     grid-area: right;
 }
 
+#div{
+    background-color: aqua;
+    color: orangered;
+    padding: 1rem;
+}
+
 nav{
     grid-area: left;
     background-color: #f4f4f4
